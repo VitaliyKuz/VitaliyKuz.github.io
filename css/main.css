@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header {
+ max-width: 100vw;
+
+}
+.title {
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 86px;
+  line-height: 86px;
+    background-color: white;
+  z-index: 10;
+}
+.lolo {
+    margin-top: 10px;
+  float:left;
+  height: 72px; 
+}
+.nav_menu {
+display: inline-block;
+  text-align: center;
+  font-size: 22pt;
+  color:#000;
+
+}
+.link {
+  display: inline-block;
+  margin-right: 50px;
+  color: #000;
+  transition: color .2s linear
+}
+ .link:hover {
+  
+    color: #A9A9A9;
+    font-size: 24pt;
+    font-weight: 600;
+
+}
+.nav_lupa{
+    float: right;  
+}
+.lupa{
+    float: right;
+    margin: 10px 10px 10px 80px;
+  height: 72px;
+}
+
+
+.two_part{
+    display: flex;
+    box-sizing: border-box;
+    background: url(../klava.jpg);
+    background-size: cover;
+    width: 100%;
+     color: #F0F8FF;
+    justify-content: space-around;
+    padding: 100px 60px;
+    
+}
+.all_slolo{
+    text-align: right;
+    width: 70%;
+
+
+}
+
+.slolo {
+
+    font-size: 50pt;
+}
+.slolo2{
+
+    font-size: 25pt;
+}
+
+.big_lolo {
+    width: 25%;
+    height: 25%;
+
+
+}
+
+main {
+    width: 100vw;
+    background-color: #F5F5F5;
+}
+
+.cyberpunk{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+     color: #F0F8FF;
+    }
+.text_punk{
+    color: #000;
+    text-align: right;
+    width: 40%;
+    margin: 50px 30px;
+
+}
+.info_punk{
+    font-size: 22pt;
+}
+.cyper_ico{
+  
+    width: 31%;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+
+}
+.price_punk{
+    font-size: 24pt;
+}
+
+.hyperscape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+     color: #F0F8FF;
+    }
+.text_hyper{
+    color: #000;
+    text-align: left;
+    width: 40%;
+    margin: 50px 30px;
+
+}
+.info_hyper{
+    font-size: 22pt;
+}
+.hyper_ico{
+  
+    width: 23%;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+
+}
+.price_hyper{
+        font-size: 24pt;
+}
+
+.gta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+     color: #F0F8FF;
+    }
+.text_gta{
+    color: #000;
+    text-align: right;
+    width: 40%;
+    margin: 50px 30px;
+
+}
+.info_gta{
+    font-size: 22pt;
+}
+.gta_ico{
+  
+    width: 31%;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+
+}
+.price_gta{
+    font-size: 24pt;
+}
+
+.rocket {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+     color: #F0F8FF;
+    }
+.text_liga{
+    color: #000;
+    text-align: left;
+    width: 40%;
+    margin: 50px 30px;
+
+}
+.info_liga{
+    font-size: 22pt;
+}
+.liga_ico{
+  
+    width: 40%;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+
+}
+.price_liga{
+        font-size: 24pt;
+}
+
+footer{
+  background-color: black;
+
+}
+.bez_root{
+   display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.all_social{
+  color:white;
+  font-size: 20pt;
+  flex: 0 0 43%;
+  align-self: center;
+  padding: 15px 15px;
+
+}
+.tg{
+  display: flex;
+  margin: 15px 15px;
+}
+.inst{
+  display: flex;
+  margin: 15px 15px;
+}
+.root{
+  color:white;
+  font-size: 16pt;
+  text-align: center;
+}
+.site_info{
+  text-align: center;
+  color:white;
+  font-size: 16pt;
+   flex: 0 0 43%;
+   align-self: center;
+}
+.play{
+  text-align: center;
+  background-color:#F5FAFF;
+  flex: 0 0 10%;
+  width: 50%;
+  font-size: 20pt;
+  border: 1px white solid;
+  border-radius: 20px;
+  align-self: center;
+  padding: 15px 15px;
+}
+/*----- Mobile ----*/
+
+@media (max-width: 767px) {
+    .test-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
