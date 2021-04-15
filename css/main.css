@@ -226,10 +226,20 @@ footer{
 .tg{
   display: flex;
   margin: 15px 15px;
+align-self: center;
 }
 .inst{
   display: flex;
   margin: 15px 15px;
+  align-self: center;
+}
+.inst_ico{
+  width: 10%;
+  margin: 0px 10px;
+}
+.tg_ico{
+  width: 10%;
+  margin: 0px 10px;
 }
 .root{
   color:white;
