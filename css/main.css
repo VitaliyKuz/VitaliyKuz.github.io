@@ -49,7 +49,12 @@ display: inline-block;
     margin: 10px 10px 10px 80px;
   height: 72px;
 }
-
+.burgermenu{
+  display: none;
+  float: right;
+    margin: 10px 10px 10px 80px;
+  height: 72px
+}
 
 .two_part{
     display: flex;
@@ -58,6 +63,7 @@ display: inline-block;
     background-size: cover;
     width: 100%;
      color: #F0F8FF;
+
     justify-content: space-around;
     padding: 100px 60px;
     
@@ -125,7 +131,8 @@ main {
     align-items: center;
     flex-direction: row-reverse;
     width: 100%;
-     color: #F0F8FF;
+    color: #F0F8FF;
+
     }
 .text_hyper{
     color: #000;
@@ -208,14 +215,18 @@ main {
 
 footer{
   background-color: black;
+  width: 100vw;
 
 }
 .bez_root{
    display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .all_social{
+  box-sizing: border-box;
   color:white;
   font-size: 20pt;
   flex: 0 0 43%;
@@ -249,26 +260,196 @@ align-self: center;
 .site_info{
   text-align: center;
   color:white;
-  font-size: 16pt;
+  font-size: 14pt;
    flex: 0 0 43%;
    align-self: center;
 }
 .play{
   text-align: center;
+  box-sizing: border-box;
   background-color:#F5FAFF;
-  flex: 0 0 10%;
   width: 50%;
   font-size: 20pt;
   border: 1px white solid;
   border-radius: 20px;
   align-self: center;
-  padding: 15px 15px;
+  padding: 25px 15px;
 }
 /*----- Mobile ----*/
 
-@media (max-width: 767px) {
-    .test-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 640px){
+.nav_lupa{
+  display: none;
 }
+.burgermenu{
+  display:inline-block;
+  float:right;
+}
+}
+@media (max-width: 850px) {
+  *{
+    transition:0.3s;
+  }
+  .two_part{
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+.nav_menu{
+  font-size: 20pt;
+}
+.all_slolo{
+  width: 90%;
+  text-align: center;
+}
+.slolo {
+
+    font-size: 34pt;
+}
+.slolo2{
+
+    font-size: 18pt;
+}
+
+.big_lolo{
+  width:60%;
+
+}
+.link{
+  margin-right: 20px;
+}
+.cyberpunk{
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.cyper_ico{
+  width: 60%;
+  border-radius: 10px;
+}
+.text_punk{
+  width: 100%;
+  display: flex;
+}
+.info_punk{
+  font-size: 18pt;
+  text-align: left;
+  width: 60%;
+}
+.price_punk{
+  font-size: 20pt;
+  text-align: right;
+  width: 40%;
+
+}
+.undline{
+  size: 3px;
+}
+.hyperscape{
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.hyper_ico{
+  width: 60%;
+  border-radius: 10px;
+}
+.text_hyper{
+  width: 100%;
+  display: flex;
+}
+.info_hyper{
+  font-size: 18pt;
+  text-align: left;
+  width: 60%;
+}
+.price_hyper{
+  font-size: 20pt;
+  text-align: right;
+  width: 40%;
+}
+
+.gta{
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.gta_ico{
+  width: 60%;
+  border-radius: 10px;
+}
+.text_gta{
+  width: 100%;
+  display: flex;
+}
+.info_gta{
+  font-size: 18pt;
+  text-align: left;
+  width: 60%;
+}
+.price_gta{
+  font-size: 20pt;
+  text-align: right;
+  width: 40%;
+}
+.rocket{
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.liga_ico{
+  width: 70%;
+  border-radius: 10px;
+}
+.text_liga{
+  width: 100%;
+  display: flex;
+}
+.info_liga{
+  font-size: 18pt;
+  text-align: left;
+  width: 60%;
+}
+.price_liga{
+  font-size: 20pt;
+  text-align: right;
+  width: 40%;
+}
+.all_social{
+  font-size: 16pt;
+}
+.play{
+  font-size: 16pt;
+  padding: 15px 50px;
+}
+.site_info{
+  font-size: 14pt;
+  width: 50%;
+}
+.root{
+  font-size: 12pt;
+}
+}
+@media(max-width: 350){
+.burgermenu{
+  height: 60px;
+}
+.all_slolo{
+  text-align: center;
+}
+.slolo {
+  font-size: 10pt;
+}
+.slolo2{
+  font-size: 6pt;
+}
+
+
+}
+
+    
