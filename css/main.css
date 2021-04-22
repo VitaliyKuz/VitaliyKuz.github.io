@@ -219,30 +219,31 @@ footer{
 
 }
 .bez_root{
-   display: flex;
+  display: flex;
   justify-content: space-around;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+    align-items: center;
+
+  
 }
 .all_social{
   box-sizing: border-box;
   color:white;
   font-size: 20pt;
-  flex: 0 0 43%;
-  align-self: center;
+ width: 40%;
   padding: 15px 15px;
+  border:1px solid green;
 
 }
 .tg{
   display: flex;
   margin: 15px 15px;
-align-self: center;
 }
 .inst{
   display: flex;
   margin: 15px 15px;
-  align-self: center;
 }
 .inst_ico{
   width: 10%;
@@ -261,19 +262,19 @@ align-self: center;
   text-align: center;
   color:white;
   font-size: 14pt;
-   flex: 0 0 43%;
-   align-self: center;
+  width: 40%;
+  border : 1px solid red;
 }
 .play{
   text-align: center;
   box-sizing: border-box;
   background-color:#F5FAFF;
-  width: 50%;
+  width: 20%;
+  height: 5%;
   font-size: 20pt;
   border: 1px white solid;
-  border-radius: 20px;
-  align-self: center;
-  padding: 25px 15px;
+  border-radius: 50px;
+   padding: 15px 15px;
 }
 /*----- Mobile ----*/
 
