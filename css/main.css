@@ -5,24 +5,23 @@
 }
 header {
  max-width: 100vw;
-
 }
 .title {
-  padding: 0 10px;
   box-sizing: border-box;
   width: 100%;
   height: 86px;
   line-height: 86px;
-    background-color: white;
+   background-color: white;
   z-index: 10;
+  padding: 30px;
+box-sizing: border-box;
 }
 .lolo {
-    margin-top: 10px;
   float:left;
   height: 72px; 
 }
 .nav_menu {
-display: inline-block;
+  display: inline-block;
   text-align: center;
   font-size: 22pt;
   color:#000;
@@ -35,223 +34,190 @@ display: inline-block;
   transition: color .2s linear
 }
  .link:hover {
-  
-    color: #A9A9A9;
-    font-size: 24pt;
-    font-weight: 600;
-
+  color: #A9A9A9;
+  font-size: 24pt;
+  font-weight: 600;
 }
 .nav_lupa{
-    float: right;  
+   float: right; 
+
 }
 .lupa{
-    float: right;
-    margin: 10px 10px 10px 80px;
+  float: right;
   height: 72px;
 }
 .burgermenu{
   display: none;
   float: right;
-    margin: 10px 10px 10px 80px;
   height: 72px
 }
-
 .two_part{
-    display: flex;
-    box-sizing: border-box;
-    background: url(../klava.jpg);
-    background-size: cover;
-    width: 100%;
-     color: #F0F8FF;
-
-    justify-content: space-around;
-    padding: 100px 60px;
-    
+  display: flex;
+  box-sizing: border-box;
+  background: url(../klava.jpg);
+  background-size: cover;
+  width: 100%;
+  color: #F0F8FF;
+  padding: 30px;
+  justify-content: space-around;  
 }
 .all_slolo{
-    text-align: right;
-    width: 70%;
-
-
+  text-align: right;
+  width: 70%;
 }
-
 .slolo {
-
-    font-size: 50pt;
+  font-size: 50pt;
 }
 .slolo2{
-
-    font-size: 25pt;
+  font-size: 25pt;
 }
-
 .big_lolo {
-    width: 25%;
-    height: 25%;
-
-
+  width: 25%;
+  height: 25%;
 }
-
 main {
-    width: 100vw;
-    background-color: #F5F5F5;
+  width: 100vw;
+  background-color: #F5F5F5;
+  padding: 30px;
+  box-sizing: border-box;
 }
-
 .cyberpunk{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-     color: #F0F8FF;
-    }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  color: #F0F8FF;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
 .text_punk{
-    color: #000;
-    text-align: right;
-    width: 40%;
-    margin: 50px 30px;
-
+  color: #000;
+  text-align: right;
+  width: 40%;
 }
 .info_punk{
-    font-size: 22pt;
+  font-size: 22pt;
 }
 .cyper_ico{
-  
-    width: 31%;
-    border: 1px #FFFFFF solid;
-    border-radius: 20px;
-
+  width: 31%;
+  border: 1px #FFFFFF solid;
+  border-radius: 20px;
 }
 .price_punk{
-    font-size: 24pt;
+  font-size: 24pt;
 }
 
 .hyperscape{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
-    width: 100%;
-    color: #F0F8FF;
-
-    }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 30px 0px;
+  box-sizing: border-box;
+  color: #F0F8FF;
+}
 .text_hyper{
-    color: #000;
-    text-align: left;
-    width: 40%;
-    margin: 50px 30px;
-
+  color: #000;
+  text-align: left;
+  width: 40%;
 }
 .info_hyper{
-    font-size: 22pt;
+  font-size: 22pt;
 }
 .hyper_ico{
-  
-    width: 23%;
-    border: 1px #FFFFFF solid;
-    border-radius: 20px;
-
+  width: 23%;
+  border: 1px #FFFFFF solid;
+  border-radius: 20px;
 }
 .price_hyper{
-        font-size: 24pt;
+  font-size: 24pt;
 }
 
 .gta{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-     color: #F0F8FF;
-    }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  color: #F0F8FF;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
 .text_gta{
-    color: #000;
-    text-align: right;
-    width: 40%;
-    margin: 50px 30px;
-
+  color: #000;
+  text-align: right;
+  width: 40%;
 }
 .info_gta{
-    font-size: 22pt;
+  font-size: 22pt;
 }
 .gta_ico{
-  
-    width: 31%;
-    border: 1px #FFFFFF solid;
-    border-radius: 20px;
-
+  width: 31%;
+  border: 1px #FFFFFF solid;
+  border-radius: 20px;
 }
 .price_gta{
-    font-size: 24pt;
+  font-size: 24pt;
 }
-
 .rocket {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
-    width: 100%;
-     color: #F0F8FF;
-    }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  color: #F0F8FF;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
 .text_liga{
-    color: #000;
-    text-align: left;
-    width: 40%;
-    margin: 50px 30px;
-
+  color: #000;
+  text-align: left;
+  width: 40%;
 }
 .info_liga{
-    font-size: 22pt;
+  font-size: 22pt;
 }
 .liga_ico{
-  
-    width: 40%;
-    border: 1px #FFFFFF solid;
-    border-radius: 20px;
-
+  width: 40%;
+  border: 1px #FFFFFF solid;
+  border-radius: 20px;
 }
 .price_liga{
-        font-size: 24pt;
+   font-size: 24pt;
 }
-
 footer{
   background-color: black;
   width: 100vw;
-
 }
 .bez_root{
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 20px;
   box-sizing: border-box;
-    align-items: center;
-
-  
+  align-items: center;
+  padding: 20px 30px;
+  box-sizing: border-box;
 }
 .all_social{
   box-sizing: border-box;
   color:white;
   font-size: 20pt;
- width: 40%;
-  padding: 15px 15px;
+  width: 40%;
   border:1px solid green;
-
 }
 .tg{
   display: flex;
-  margin: 15px 15px;
 }
 .inst{
   display: flex;
-  margin: 15px 15px;
 }
 .inst_ico{
   width: 10%;
-  margin: 0px 10px;
 }
 .tg_ico{
   width: 10%;
-  margin: 0px 10px;
 }
 .root{
   color:white;
@@ -263,7 +229,6 @@ footer{
   color:white;
   font-size: 14pt;
   width: 40%;
-  border : 1px solid red;
 }
 .play{
   text-align: center;
@@ -273,29 +238,18 @@ footer{
   height: 5%;
   font-size: 20pt;
   border: 1px white solid;
-  border-radius: 50px;
-   padding: 15px 15px;
 }
 /*----- Mobile ----*/
 
-@media (max-width: 640px){
-.nav_lupa{
-  display: none;
-}
-.burgermenu{
-  display:inline-block;
-  float:right;
-}
-}
+
 @media (max-width: 850px) {
-  *{
-    transition:0.3s;
-  }
-  .two_part{
+*{
+  transition:0.3s;
+}
+.two_part{
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-
 }
 .nav_menu{
   font-size: 20pt;
@@ -305,17 +259,13 @@ footer{
   text-align: center;
 }
 .slolo {
-
-    font-size: 34pt;
+  font-size: 34pt;
 }
 .slolo2{
-
-    font-size: 18pt;
+  font-size: 18pt;
 }
-
 .big_lolo{
   width:60%;
-
 }
 .link{
   margin-right: 20px;
@@ -323,12 +273,11 @@ footer{
 .cyberpunk{
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
   box-sizing: border-box;
 }
 .cyper_ico{
   width: 60%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .text_punk{
   width: 100%;
@@ -343,7 +292,6 @@ footer{
   font-size: 20pt;
   text-align: right;
   width: 40%;
-
 }
 .undline{
   size: 3px;
@@ -351,12 +299,11 @@ footer{
 .hyperscape{
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
   box-sizing: border-box;
 }
 .hyper_ico{
   width: 60%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .text_hyper{
   width: 100%;
@@ -372,16 +319,14 @@ footer{
   text-align: right;
   width: 40%;
 }
-
 .gta{
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
   box-sizing: border-box;
 }
 .gta_ico{
   width: 60%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .text_gta{
   width: 100%;
@@ -400,12 +345,11 @@ footer{
 .rocket{
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
   box-sizing: border-box;
 }
 .liga_ico{
   width: 70%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .text_liga{
   width: 100%;
@@ -426,11 +370,118 @@ footer{
 }
 .play{
   font-size: 16pt;
-  padding: 15px 50px;
+  border-radius: 20px;
 }
 .site_info{
   font-size: 14pt;
   width: 50%;
+}
+.root{
+  font-size: 12pt;
+}
+}
+@media (max-width: 640px){
+.nav_lupa{
+  display: none;
+}
+.burgermenu{
+  display:inline-block;
+  float:right;
+}
+.cyberpunk{
+  flex-direction: column;
+}
+.text_punk{
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column-reverse;
+}
+.info_punk{
+  font-size: 16pt;
+  text-align: center;
+  width: 100%;
+}
+.price_punk{
+  font-size: 18pt;
+  text-align: center;
+  width: 100%;
+}
+.hyperscape{
+  flex-direction: column;
+}
+.text_hyper{
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column-reverse;
+}
+.info_hyper{
+  font-size: 16pt;
+  text-align: center;
+  width: 100%;
+}
+.price_hyper{
+  font-size: 18pt;
+  text-align: center;
+  width: 100%;
+}
+.gta{
+  flex-direction: column;
+}
+.text_gta{
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column-reverse;
+}
+.info_gta{
+  font-size: 16pt;
+  text-align: center;
+  width: 100%;
+}
+.price_gta{
+  font-size: 18pt;
+  text-align: center;
+  width: 100%;
+}
+.rocket{
+  flex-direction: column;
+}
+.text_liga{
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column-reverse;
+}
+.info_liga{
+  font-size: 16pt;
+  text-align: center;
+  width: 100%;
+}
+.price_liga{
+  font-size: 18pt;
+  text-align: center;
+  width: 100%;
+}
+.undline{
+  size: 2px;
+}
+.bez_root{
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.play{
+  font-size: 16pt;
+  border-radius: 20px;
+  width: 60%;
+  order: -1;
+}
+.site_info{
+  font-size: 14pt;
+  width: 100%;
+  box-sizing: border-box;
+}
+.all_social{
+width: 100%;
+align-self: center;
 }
 .root{
   font-size: 12pt;
