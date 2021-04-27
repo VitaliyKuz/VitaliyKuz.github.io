@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-
+}
+a{
+   text-decoration: none;
+    color:white;
 }
 header {
  max-width: 100vw;
@@ -203,20 +206,27 @@ footer{
 .all_social{
   box-sizing: border-box;
   color:white;
-  font-size: 20pt;
+  font-size: 25pt;
   width: 40%;
+  padding: 10px;
 }
 .tg{
   display: flex;
+  padding: 10px;
+justify-content: space-around;
+  box-sizing: border-box;
 }
 .inst{
   display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  box-sizing: border-box;
 }
 .inst_ico{
-  width: 10%;
+  width: 55px;
 }
 .tg_ico{
-  width: 10%;
+  width: 55px;
 }
 .root{
   color:white;
@@ -226,9 +236,10 @@ footer{
 .site_info{
   text-align: center;
   color:white;
-  font-size: 14pt;
+  font-size: 20pt;
   width: 40%;
 }
+
 .play{
   text-align: center;
   box-sizing: border-box;
@@ -237,6 +248,9 @@ footer{
   height: 5%;
   font-size: 20pt;
   border: 1px white solid;
+  border-radius: 30px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 /*----- Mobile ----*/
 
@@ -365,15 +379,22 @@ footer{
   width: 40%;
 }
 .all_social{
-  font-size: 16pt;
+  font-size: 18pt;
+
+}
+.inst_ico{
+  width: 40px;
+}
+.tg_ico{
+  width: 40px;
 }
 .play{
   font-size: 16pt;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 .site_info{
-  font-size: 14pt;
-  width: 50%;
+  font-size: 16pt;
+
 }
 .root{
   font-size: 12pt;
@@ -477,30 +498,56 @@ footer{
   font-size: 14pt;
   width: 100%;
   box-sizing: border-box;
+  flex-direction: row;
 }
 .all_social{
 width: 100%;
-align-self: center;
+display: flex;
+justify-content: space-between;
+padding: 0px 30px;
 }
 .root{
-  font-size: 12pt;
+  font-size: 14pt;
 }
 }
-@media(max-width: 350){
+@media (max-width: 350px){
 .burgermenu{
-  height: 60px;
+width: : 55px; 
 }
-.all_slolo{
-  text-align: center;
+
+ .title {
+padding: 10px;
 }
+
 .slolo {
-  font-size: 10pt;
+  font-size: 16pt;
 }
 .slolo2{
-  font-size: 6pt;
+  font-size: 12pt;
+}
+.all_social{
+  font-size: 14pt;
+  padding: 0;
+
+}
+.inst_ico{
+  width: 30px;
+}
+.tg_ico{
+  width: 30px;
+}
+.play{
+  font-size: 14pt;
+  border-radius: 30px;
+  width: 100%;
+}
+.site_info{
+  font-size: 14pt;
+
+}
+.root{
+  font-size: 10pt;
 }
 
-
 }
-
     
